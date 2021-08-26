@@ -10,7 +10,7 @@ public class BackProcess extends Application {
     @Override
     public void onCreate() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            startForegroundService(new Intent(this,AlarmService.class));// startService(new Intent(this,AlarmService.class));
+  //          startForegroundService(new Intent(this,AlarmService.class));// startService(new Intent(this,AlarmService.class));
         }
         instance = this;
         super.onCreate();
